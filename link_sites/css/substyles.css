@@ -39,6 +39,27 @@
         padding-left: 10rem;
     }
 
+    .ant, .ped, .vai {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+    .title1 {
+        font-size: 3.4rem;
+    }
+    
+    .title2 {
+        font-size: 5rem;
+    }
+    
+    .title3 {
+        font-size: 3.2rem;
+    }
+    
+
     
 }
 
@@ -80,6 +101,19 @@
     flex-wrap: wrap;
 }
 
+.title1 {
+    font-size: 4rem;
+}
+
+.title2 {
+    font-size: 4rem;
+}
+
+.title3 {
+    font-size: 4rem;
+}
+
+
 .tbleft {
     display: flex;
     justify-content: center;
@@ -118,19 +152,43 @@
 
 .main {
     flex-grow: 2;
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 2rem;
     border: 1px solid red;
 
 }
 
-.fish {
-    height: 10rem;
-    width: 10rem;
+.mleft {
+    border: 1px solid red;
+    width: 50%;
+    padding: 1rem;
+
 }
+
+.mright {
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.mrtop {
+ border: 1px solid red;
+ flex-grow: 1;
+ padding-bottom: 2rem;
+}
+
+.mrbottom {
+ border: 1px solid red;
+ flex-grow: 1;
+ margin-top: 1rem;
+}
+
+
+
+
 
 .footer {
     justify-content: flex-end;
