@@ -128,24 +128,24 @@
 .fish1 {
     height: 10rem;
     width: 10rem;
-    left: 0px;
-    top: 20%;
+    display: flex;
+    justify-content: start;
 
 
 }
 .fish2 {
     height: 10rem;
     width: 10rem;
-    left: 0px;
-    top: 50%;
+    display: flex;
+    justify-content: start;
 
 
 }
 .fish3 {
     height: 10rem;
     width: 10rem;
-    left: 0px;
-    top: 80%;
+    display: flex;
+    justify-content: start;
 
 
 }
@@ -154,7 +154,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-}
+    }
 
 .footer {
     justify-content: flex-end;
