@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@media (max-width:600px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    * {
+        padding: 0;
+    }
+    .titlebar {
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .tbimgleft {
+        max-height: 100%;
+        width: 15rem;
+        padding-right: 15rem;
+        justify-self: center;
+    }
+
+    .tbleft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .tbmid {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Dela Gothic One', cursive;
+        color: rgb(0,153,230);
+        padding-left: 1rem;
+    }
+
+    .tbimgright {
+        padding-left: 10rem;
+    }
+
+    
+}
+
+:root {
+    --title-border: 0.4rem solid;
+}
+
+.html {
+    min-width: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper, html, body {
+    min-height: 100vh;
+    background-position: center center;
+    background-image: url(/imgs/oceanbg.jpg);
+    
+    
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-shrink: 2;
+}
+
+
+.titlebar {
+    background-color: rgba(0,255,255,0.4);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tbleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+
+}
+
+.tbright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+.tbmid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2rem;
+    color: rgb(0,153,230);
+}
+
+.tbimgleft {
+    max-height: 100%;
+    width: 15rem;
+    padding-left: 5rem;
+}
+
+.tbimgright {
+    max-height: 100%;
+    width: 10rem;
+
+}
+
+.main {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+.fish {
+    height: 10rem;
+    width: 10rem;
+}
+
+.footer {
+    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,255,255,0.3);
+}
