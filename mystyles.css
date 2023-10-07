@@ -143,9 +143,29 @@
 
 }
 
-.fish {
+.fish1 {
     height: 10rem;
     width: 10rem;
+    display: flex;
+    justify-content: start;
+
+
+}
+.fish2 {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: start;
+
+
+}
+.fish3 {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: start;
+
+
 }
 
 .phytofish, .foodfish, .co2fish {
