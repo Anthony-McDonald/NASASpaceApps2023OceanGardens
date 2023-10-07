@@ -144,6 +144,25 @@
 
 }
 .fish3 {
+.fish1 {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    left: 0px;
+    top: 20%;
+
+
+}
+.fish2 {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+
+
+}
+.fish3 {
     height: 10rem;
     width: 10rem;
     position: absolute;
