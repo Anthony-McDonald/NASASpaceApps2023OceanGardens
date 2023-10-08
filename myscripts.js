@@ -16,5 +16,3 @@ function massAlgae(){
     let result = document.getElementById("result");
     result.innerText = ("For that distance " + kiloAlgaePetrol.toFixed(2) + " kg of Phytoplankton would be needed to offset the emissions of a Petrol Car, " + kiloAlgaeDiesel.toFixed(2) + " kg of Phytoplankton for a Diesel Car and " + kiloAlgaeEletric.toFixed(2) + " for an Electric Car." );
 }
-
-console.log("sdf")
