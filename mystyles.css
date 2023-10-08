@@ -158,50 +158,57 @@
 
 .swimlr1 {
     position: relative;
-    animation-name: swimlr1;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimlr1 7s infinite;
+    -moz-animation: swimlr1 7s infinite;
+    -o-animation: swimlr1 7s infinite;
+    animation: swimlr1 7s infinite;
 }
 
 .swimlr2 {
     position: relative;
-    animation-name: swimlr2;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimlr2 12s infinite;
+    -moz-animation: swimlr2 12s infinite;
+    -o-animation: swimlr2 12s infinite;
+    animation: swimlr2 12s infinite;
 }
 
 .swimlr3 {
     position: relative;
-    animation-name: swimlr2;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimlr2 8s infinite;
+    -moz-animation: swimlr2 8s infinite;
+    -o-animation: swimlr2 8s infinite;
+    animation: swimlr2 8s infinite;
 }
 
 .swimrl1 {
     position: relative;
-    animation-name: swimrl1;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimrl1 12s infinite;
+    -moz-animation: swimrl1 12s infinite;
+    -o-animation: swimrl1 12s infinite;
+    animation: swimrl1 12s infinite;
 }
 .swimrl2 {
     position: relative;
-    animation-name: swimrl2;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimrl2 6s infinite;
+    -moz-animation: swimrl2 6s infinite;
+    -o-animation: swimrl2 6s infinite;
+    animation: swimrl2 6s infinite;
 }
 
 .swimrl3 {
     position: relative;
-    animation-name: swimrl2;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimrl2 10s infinite;
+    -moz-animation: swimrl2 10s infinite;
+    -o-animation: swimrl2 10s infinite;
+    animation: swimrl2 10s infinite;
 }
 
 .swimrl4 {
     position: relative;
-    animation-name: swimrl2;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    -webkit-animation: swimrl2 4s infinite;
+    -moz-animation: swimrl2 4s infinite;
+    -o-animation: swimrl2 4s infinite;
+    animation: swimrl2 4s infinite;
 }
 
 
