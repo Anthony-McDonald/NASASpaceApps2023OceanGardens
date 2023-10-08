@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photosynthesis</title>
     <link rel="stylesheet" href="../css/substyles.css">
-    <script src="myscripts.js"></script>
+    <script src="../../myscripts.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
@@ -51,7 +51,9 @@
                     </h5>
                 </div>
                 <div class="mright">
-
+                    <h2> Input a distance in kilometers and you will get how many kilograms of Phytoplankton is needed to offset a car's CO2 emissions.</h2><br/><br/>
+                    <input id="txt" oninput="massAlgae()"><br/><br/>
+                    <span id="result"></span>
                 </div>
 
             </div>
