@@ -266,7 +266,7 @@
     color: white;
 }
 
-a {
+a, .whiteborder {
     color:rgb(12, 21, 99);
     text-shadow: rgb(255, 255, 255) 2px 0px 0px, 
     rgb(255, 255, 255) 1.75517px 0.958851px 0px, 
