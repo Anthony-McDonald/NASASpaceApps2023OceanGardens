@@ -79,6 +79,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 10rem;
+    width: 100%;
 }
 
 .tbleft {
