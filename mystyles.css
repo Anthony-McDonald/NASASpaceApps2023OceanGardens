@@ -42,12 +42,13 @@
     
 }
 
+
 :root {
     --title-border: 0.4rem solid;
 }
 
 .html {
-    min-width: 100vh;
+
 }
 
 * {
@@ -59,6 +60,7 @@
     min-height: 100vh;
     background-position: center center;
     background-image: url(./imgs/oceanbg.jpg);
+    max-width: 100%;
     
     
 
@@ -68,7 +70,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 100%;
     flex-shrink: 2;
 }
 
@@ -136,10 +137,11 @@
 
 .main {
     flex-grow: 2;
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -149,7 +151,7 @@
 }
 
 .phytofish, .foodfish, .co2fish {
-    width: 100%;
+    width: 5rem;
     display: flex;
     justify-content: start;
     max-height: 5rem;
@@ -214,7 +216,7 @@
   }
 
   @keyframes swimrl1 {
-    0%   {left:120%; top: 80%}
+    0%   {left:80%; top: 80%}
     25%  {left:75%; top: 40%}
     50%  {left:50%; top: 10%}
     100% {left:-20%; top: 20%}
