@@ -206,27 +206,27 @@
 
 
 
-@keyframes swimlr1 {
+@-webkit-keyframes swimlr1 {
     0%   {left:-20%; top: 20%;}
     25%  {left:25%; top: 25%;}
     50%  {left:50%; top: 10%;}
     100% {left:100%; top: 0%}
   }
-  @keyframes swimlr2 {
+  @-webkit-keyframes  swimlr2 {
     0%   {left:-10%; top: 80%;}
     25%  {left:45%; top: 5%;}
     50%  {left:70%; top: 20%;}
     100% {left:100%; top: 0%}
   }
 
-  @keyframes swimrl1 {
+  @-webkit-keyframes swimrl1 {
     0%   {left:120%; top: 80%}
     25%  {left:75%; top: 40%}
     50%  {left:50%; top: 10%}
     100% {left:-20%; top: 20%}
   }
 
-  @keyframes swimrl2 {
+  @-webkit-keyframes  swimrl2 {
     0%   {left:120%; top: 20%}
     25%  {left:75%; top: 5%}
     50%  {left:50%; top: 10%}
