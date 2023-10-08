@@ -200,6 +200,13 @@
     animation-iteration-count: infinite;
 }
 
+.swimrl4 {
+    position: relative;
+    animation-name: swimrl2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 
 
 @keyframes swimlr1 {
@@ -216,7 +223,7 @@
   }
 
   @keyframes swimrl1 {
-    0%   {left:80%; top: 80%}
+    0%   {left:120%; top: 80%}
     25%  {left:75%; top: 40%}
     50%  {left:50%; top: 10%}
     100% {left:-20%; top: 20%}
