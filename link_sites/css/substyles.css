@@ -61,7 +61,7 @@
 .wrapper, html, body {
     min-height: 100vh;
     background-position: center center;
-    background-image: url(/imgs/oceanbg.jpg);
+    background-image: url(../../imgs/oceanbg.jpg);
     
     
 
