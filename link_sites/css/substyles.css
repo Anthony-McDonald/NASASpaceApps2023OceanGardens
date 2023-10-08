@@ -233,3 +233,51 @@
     justify-content: center;
     background-color: rgba(0,255,255,0.3);
 }
+
+.mltext {
+    flex-grow: 0.7;
+    min-height: 8rem;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    padding: 3rem 3rem 0rem;
+    text-shadow: rgb(12, 21, 99) 2px 0px 0px, 
+    rgb(12, 21, 99) 1.75517px 0.958851px 0px, 
+    rgb(12, 21, 99) 1.0806px 1.68294px 0px, 
+    rgb(12, 21, 99) 0.141474px 1.99499px 0px, 
+    rgb(12, 21, 99) -0.832294px 1.81859px 0px, 
+    rgb(12, 21, 99) -1.60229px 1.19694px 0px, 
+    rgb(12, 21, 99) -1.97999px 0.28224px 0px,
+    rgb(12, 21, 99) -1.87291px -0.701566px 0px, 
+    rgb(12, 21, 99) -1.30729px -1.51361px 0px, 
+    rgb(12, 21, 99) -0.421592px -1.95506px 0px, 
+    rgb(12, 21, 99)0.567324px -1.91785px 0px, 
+    rgb(12, 21, 99) 1.41734px -1.41108px 0px, 
+    rgb(12, 21, 99) 1.92034px -0.558831px 0px;
+}
+
+.mlsources {
+    flex-grow: 0.7;
+    min-height: 8rem;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0rem 3rem 3rem;
+    color: white;
+}
+
+a {
+    color:rgb(12, 21, 99);
+    text-shadow: rgb(255, 255, 255) 2px 0px 0px, 
+    rgb(255, 255, 255) 1.75517px 0.958851px 0px, 
+    rgb(255, 255, 255) 1.0806px 1.68294px 0px, 
+    rgb(255, 255, 255) 0.141474px 1.99499px 0px, 
+    rgb(255, 255, 255) -0.832294px 1.81859px 0px, 
+    rgb(255, 255, 255) -1.60229px 1.19694px 0px, 
+    rgb(255, 255, 255) -1.97999px 0.28224px 0px,
+    rgb(255, 255, 255) -1.87291px -0.701566px 0px, 
+    rgb(255, 255, 255) -1.30729px -1.51361px 0px, 
+    rgb(255, 255, 255) -0.421592px -1.95506px 0px, 
+    rgb(255, 255, 255)0.567324px -1.91785px 0px, 
+    rgb(255, 255, 255) 1.41734px -1.41108px 0px, 
+    rgb(255, 255, 255) 1.92034px -0.558831px 0px;
+}
