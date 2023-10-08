@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phytoplankton</title>
     <link rel="stylesheet" href="../css/substyles.css">
-    <script src="myscripts.js"></script>
+    <script src="../../myscripts.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
@@ -50,16 +50,22 @@
                         <a href="https://www.britannica.com/science/phytoplankton">https://www.britannica.com/science/phytoplankton</a> <br>
                         <a href="https://www.nature.com/articles/41415">https://www.nature.com/articles/41415</a> <br>
                         <a href="https://www.nature.com/articles/s41586-023-05760-y ">https://www.nature.com/articles/s41586-023-05760-y </a>
+
+
+                        <div class="algdiv"><img id='img' alt="algae progress"src='../../imgs/algae1.png' /></div>
+
+                        <div class="sliderdiv">
+                            <input id="slider"onchange='setImage(this)' type="range" min="0" max="10" value="0" step="1" />
+                            <label class="labeltext" for="slider">Slide along to view the progress of the algae's growth</label>
+                        </div>
                         
                     </h5>
                 </div>
                 <div class="mright">
-                    <div class="mrtop">
                         <a href="https://www.youtube.com/watch?v=cpUf2EAmHxk">
                             <img class="phyimg" src="/imgs/algaebloom.jpg" alt="spaceapps logo">
                             </a>
-                        </div>
-                    <div class="mrbottom">mrb</div>
+                    </div>
                 </div>
 
             </div>
