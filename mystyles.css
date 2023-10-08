@@ -96,7 +96,9 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+      height: 10rem;
+    width: 100%;
+}
   
 .tbleft {
     display: flex;
@@ -154,6 +156,7 @@
     justify-content: start;
     max-height: 5rem;
 }
+
 
 
 
