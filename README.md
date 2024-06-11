@@ -1,6 +1,7 @@
 ### NASASpaceApps2023OceanGardens ###
  
 A purely frontend exploration into css animations designed to be educational to teach children about vital stages of the marine ecosystem. Created as part of the NASA International Space Apps Challenge 2023. This project was coded in HTML, CSS and Vanilla JS.
+If you are interested and would like to take a closer look, the live version is [here](https://anthony-mcdonald.github.io/NASASpaceApps2023OceanGardens/index.html).
 
 ## The Home Page ##
 ![](https://github.com/Anthony-McDonald/NASASpaceApps2023OceanGardens/assets/89093671/b7b1d710-f00f-4f9e-9caa-0f1eb468f20e)
