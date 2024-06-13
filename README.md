@@ -20,5 +20,6 @@ This page was kept relatively simple and just shows a graphic explaining the gen
 
 ## Carbon Cycle ## 
 ![](https://github.com/Anthony-McDonald/NASASpaceApps2023OceanGardens/assets/89093671/b2eaec73-98cf-4ab6-86b7-21a4dc629f5d)
+
 Last but not least, the carbon cycle page had the lofty goal of trying to push to users the degree to which phytoplankton can offset the CO2 emmisions of a vehicle. This was done through an interactive input box that calculates the amount of phytoplankton required to offset the C02 emissions for cars of different types. 
 
